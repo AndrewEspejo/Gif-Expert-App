@@ -3,7 +3,7 @@ import { useState } from "react";
 import Fragment from "react-dom";
 import { AddCategory } from "./AddCategory";
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({}) => {
     // const categories = ["One Piece", "Dragon Ball", "Naruto"];
     const [categories, setCategories] = useState([
         "One Piece",
@@ -16,7 +16,7 @@ export const GifExpertApp = () => {
     return (
         <React.Fragment>
             <h2>GifExpertApp</h2>
-            <AddCategory />
+            <AddCategory setCategories={setCategories} />
             <hr />
             <ul>
                 {categories.map((category) => {

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Gif-Expert-App%20/static/css/main.3fff39fd.chunk.css",
-    "main.js": "/Gif-Expert-App%20/static/js/main.c43df623.chunk.js",
-    "main.js.map": "/Gif-Expert-App%20/static/js/main.c43df623.chunk.js.map",
-    "runtime-main.js": "/Gif-Expert-App%20/static/js/runtime-main.be965a47.js",
-    "runtime-main.js.map": "/Gif-Expert-App%20/static/js/runtime-main.be965a47.js.map",
-    "static/js/2.ee458b5f.chunk.js": "/Gif-Expert-App%20/static/js/2.ee458b5f.chunk.js",
-    "static/js/2.ee458b5f.chunk.js.map": "/Gif-Expert-App%20/static/js/2.ee458b5f.chunk.js.map",
-    "index.html": "/Gif-Expert-App%20/index.html",
-    "precache-manifest.e424d61a1703a77b845de2fa5acd4d99.js": "/Gif-Expert-App%20/precache-manifest.e424d61a1703a77b845de2fa5acd4d99.js",
-    "service-worker.js": "/Gif-Expert-App%20/service-worker.js",
-    "static/css/main.3fff39fd.chunk.css.map": "/Gif-Expert-App%20/static/css/main.3fff39fd.chunk.css.map",
-    "static/js/2.ee458b5f.chunk.js.LICENSE.txt": "/Gif-Expert-App%20/static/js/2.ee458b5f.chunk.js.LICENSE.txt"
+    "main.css": "/Gif-Expert-App/static/css/main.3fff39fd.chunk.css",
+    "main.js": "/Gif-Expert-App/static/js/main.c43df623.chunk.js",
+    "main.js.map": "/Gif-Expert-App/static/js/main.c43df623.chunk.js.map",
+    "runtime-main.js": "/Gif-Expert-App/static/js/runtime-main.88c3e0b5.js",
+    "runtime-main.js.map": "/Gif-Expert-App/static/js/runtime-main.88c3e0b5.js.map",
+    "static/js/2.ee458b5f.chunk.js": "/Gif-Expert-App/static/js/2.ee458b5f.chunk.js",
+    "static/js/2.ee458b5f.chunk.js.map": "/Gif-Expert-App/static/js/2.ee458b5f.chunk.js.map",
+    "index.html": "/Gif-Expert-App/index.html",
+    "precache-manifest.86dceb42255d6d9cb5b3a33ce6c44ad0.js": "/Gif-Expert-App/precache-manifest.86dceb42255d6d9cb5b3a33ce6c44ad0.js",
+    "service-worker.js": "/Gif-Expert-App/service-worker.js",
+    "static/css/main.3fff39fd.chunk.css.map": "/Gif-Expert-App/static/css/main.3fff39fd.chunk.css.map",
+    "static/js/2.ee458b5f.chunk.js.LICENSE.txt": "/Gif-Expert-App/static/js/2.ee458b5f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.be965a47.js",
+    "static/js/runtime-main.88c3e0b5.js",
     "static/js/2.ee458b5f.chunk.js",
     "static/css/main.3fff39fd.chunk.css",
     "static/js/main.c43df623.chunk.js"

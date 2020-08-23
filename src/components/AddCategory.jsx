@@ -3,17 +3,25 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 export const AddCategory = ({ setCategories }) => {
-    const [inputValue, setinputValue] = useState('');
+    const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
-        setinputValue(e.target.value);
+        setInputValue(e.target.value);
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
         if (inputValue.trim().length > 2) {
-            setCategories((keys) => [inputValue, ...keys]);
-            setinputValue('');
+            setCategories((cats) => {
+                // Aquí verificas si existe la categoria.
+                const exist = cats.find((x) => x === inputValue);
+                // Si existe, retornas las categorías ya existentes.
+                if (exist) return [...cats];
+
+                return [inputValue, ...cats];
+            });
+            setInputValue('');
         }
     };
 
